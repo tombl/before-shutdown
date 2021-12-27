@@ -1,6 +1,6 @@
 {
   "name": "before-shutdown",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Execute asynchronous functions before node shuts down",
   "homepage": "https://github.com/tombl/before-shutdown",
   "repository": {
