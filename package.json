@@ -1,0 +1,26 @@
+{
+  "name": "before-shutdown",
+  "version": "0.0.1",
+  "description": "Execute asynchronous functions before node shuts down",
+  "homepage": "https://github.com/tombl/before-shutdown",
+  "repository": {
+    "url": "https://github.com/tombl/before-shutdown.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "runtt build src/index.ts && tsc"
+  },
+  "dependencies": {
+    "runtt": "^0.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.5",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  }
+}
