@@ -77,6 +77,7 @@ const SIGNALS = [
 for (const signal of SIGNALS) {
   process.on(signal, () => {
     process.exitCode = 128 + os.constants.signals[signal];
+    onShutdown();
   });
 }
 process.on("uncaughtException", (error) => {
